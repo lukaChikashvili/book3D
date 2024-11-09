@@ -1,13 +1,13 @@
 import { Canvas } from '@react-three/fiber'
+import Experience from './Experience'
+import Lights from './Lights'
 
 const CanvasPage = () => {
   return (
    <>
      <Canvas >
-        <mesh>
-            <boxGeometry />
-            <meshStandardMaterial />
-        </mesh>
+        <Lights />
+       <Experience />
      </Canvas>
    </>
   )
