@@ -21,8 +21,8 @@ const materials = urls.map(url => {
 
   return (
    <>
-     <mesh position={position} material={materials} >
-       <boxGeometry args={[3, 4]}  />
+     <mesh position={position} material={materials} castShadow >
+       <boxGeometry args={[3, 4, 0.7]}  />
         
        
      </mesh>
