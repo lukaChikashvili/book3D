@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber'
 import Experience from './Experience'
 import Lights from './Lights'
 import { Physics } from '@react-three/rapier'
+import Hero from './Hero'
 
 const CanvasPage = () => {
   return (
@@ -13,6 +14,10 @@ const CanvasPage = () => {
        <Experience />
        </Physics>
      </Canvas>
+
+     <div className='absolute top-0 left-0 w-full h-screen'>
+       <Hero />
+     </div>
    </>
   )
 }

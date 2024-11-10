@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        goldStart: '#F95454',
+        goldEnd: '#C62E2E',
+      },
+      backgroundImage: {
+        'gold-gradient': 'linear-gradient(to right, #F95454, #C62E2E)',
+      },
+    },
   },
   plugins: [],
 }
