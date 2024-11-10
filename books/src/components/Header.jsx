@@ -8,7 +8,7 @@ const Header = () => {
             <Link to = "/" className='cursor-pointer'>logo</Link>
         </div>
 
-        <nav className='flex items-center'>
+        <nav className='hidden md:flex items-center '>
         <ul className="flex items-center gap-6">
           <li><Link to="/books" data-replace = "Books"><span>Books</span></Link></li>
           <li><Link to="/genres" data-replace = "Genres"><span>Genres</span></Link></li>
