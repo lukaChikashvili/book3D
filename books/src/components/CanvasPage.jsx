@@ -6,7 +6,7 @@ import { Physics } from '@react-three/rapier'
 const CanvasPage = () => {
   return (
    <>
-     <Canvas >
+     <Canvas camera={ { fov: 75, near: 0.2, far: 1000, position: [2, 2, 2] } }>
         <Physics>
         
         <Lights />
