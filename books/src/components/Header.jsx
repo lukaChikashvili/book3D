@@ -1,11 +1,17 @@
-import React from 'react'
+import gsap from 'gsap'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
+
+
+    
+     
+    
   return (
      <header className='w-full flex items-center justify-between absolute top-0 left-0 z-10 px-12 py-6 text-xl'>
         <div>
-            <Link to = "/" className='cursor-pointer'>logo</Link>
+            <Link to = "/" className='cursor-pointer text-reveal'>Biblus</Link>
         </div>
 
         <nav className='hidden md:flex items-center '>
@@ -18,6 +24,9 @@ const Header = () => {
         </ul>
     
         </nav>
+
+       
+
      </header>
   )
 }
