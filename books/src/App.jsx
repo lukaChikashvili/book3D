@@ -1,4 +1,6 @@
+import { Route, Routes } from "react-router-dom"
 import CanvasPage from "./components/CanvasPage"
+import Header from "./components/Header"
 
 
 function App() {
@@ -6,7 +8,12 @@ function App() {
 
   return (
     <>
-      <CanvasPage />
+      <Header />
+
+      
+      <Routes>
+        <Route path="/" element = {<CanvasPage />} />
+      </Routes>
     </>
   )
 }
