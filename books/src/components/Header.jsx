@@ -10,11 +10,11 @@ const Header = () => {
 
         <nav className='flex items-center'>
         <ul className="flex items-center gap-6">
-          <li><Link to="/books">Books</Link></li>
-          <li><Link to="/genres">Genres</Link></li>
-          <li><Link to="/authors">Authors</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/books" data-replace = "Books"><span>Books</span></Link></li>
+          <li><Link to="/genres" data-replace = "Genres"><span>Genres</span></Link></li>
+          <li><Link to="/authors" data-replace = "Authors"><span>Authors</span></Link></li>
+          <li><Link to="/about" data-replace = "About"><span>About</span></Link></li>
+          <li><Link to="/contact" data-replace = "Contact"><span>Contact</span></Link></li>
         </ul>
     
         </nav>

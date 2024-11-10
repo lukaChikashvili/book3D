@@ -2,7 +2,7 @@ import { ChevronsRight } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <div className='flex items-center justify-start w-full h-screen p-12'>
+    <div className='flex items-center justify-start w-full h-screen p-12 mt-[1.5rem]'>
       <div className='flex flex-col gap-6 w-1/2 '>
       <h1 className='text-8xl '>Find Stories that Speak to You</h1>
       <p className='text-2xl'>
